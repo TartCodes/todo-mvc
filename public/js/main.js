@@ -13,7 +13,7 @@ Array.from(todoItem).forEach((el)=>{
 Array.from(todoComplete).forEach((el)=>{
     el.addEventListener('click', markIncomplete)
 })
-
+// ignore this delete this comment
 async function deleteTodo(){
     const todoId = this.parentNode.dataset.id
     try{
